@@ -1,0 +1,1150 @@
+# Translation of Themes - Flexia in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Flexia package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-05 03:52:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Flexia\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Enhance your WordPress experience with a modern and versatile Gutenberg-ready block theme built with the Full Site Editing (FSE) feature. It allows more flexibility with endless customization options and enables users to edit everything from headers and footers to templates with blocks. It is lightweight and highly extendable with Customizer, and it offers true responsiveness with a modern Flexbox and mobile-first design. This multi-purpose theme is fully compatible with WooCommerce. Perfect for showcasing your blog, portfolio, agency, attracting clients, and building a professional brand image. Find theme details and Classic Flexia from  https://flexia.pro"
+msgstr "Melhore sua experiência no WordPress com um tema de blocos moderno e versátil, pronto para o Gutenberg, criado com o recurso de edição completa do site (FSE). Ele oferece mais flexibilidade com infinitas opções de personalização e permite que os usuários editem tudo, desde cabeçalhos e rodapés até modelos com blocos. Ele é leve e altamente extensível com o “Personalizador” e oferece uma verdadeira responsividade com um design moderno com Flexbox e prioridade para dispositivos móveis. Este tema multiuso é totalmente compatível com o WooCommerce. Perfeito para exibir seu blog, portfólio, agência, atrair clientes e criar uma imagem de marca profissional. Encontre os detalhes do tema e o Flexia clássico em https://flexia.pro"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Flexia"
+msgstr "Flexia"
+
+#: patterns/template-single.php:40
+msgctxt "share text"
+msgid "Share on"
+msgstr "Compartilhar em"
+
+#: patterns/template-single.php
+msgctxt "Pattern title"
+msgid "Template Single"
+msgstr "Modelo único"
+
+#: patterns/template-archive.php:22
+msgctxt "No post found text"
+msgid "No posts were found."
+msgstr "Nenhum post foi encontrado."
+
+#: patterns/template-archive.php:21
+msgctxt "query placeholder text"
+msgid "Add text or blocks that will display when a query returns no results."
+msgstr "Adicione texto ou blocos que serão exibidos quando uma consulta não retornar resultados."
+
+#: patterns/template-archive.php
+msgctxt "Pattern title"
+msgid "Template Archive"
+msgstr "Arquivo de modelos"
+
+#: patterns/pricing.php:79 patterns/pricing.php:157 patterns/pricing.php:219
+msgid "Get Started"
+msgstr "Começar a usar"
+
+#: patterns/posts-list.php:24 patterns/search-page.php:61
+#: patterns/template-archive.php:41
+msgctxt "Read More button text"
+msgid "Read More"
+msgstr "Leia mais"
+
+#: patterns/main-sidebar.php:9
+msgctxt "search button label"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: patterns/header.php:63 patterns/main-sidebar.php:9
+msgctxt "search button text"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: patterns/header.php:60
+msgid "Contact"
+msgstr "Contato"
+
+#: patterns/header.php:57
+msgid "Services"
+msgstr "Serviços"
+
+#: patterns/header.php:55
+msgid "Home"
+msgstr "Página inicial"
+
+#: patterns/footer.php:92
+msgid "Windows"
+msgstr "Windows"
+
+#: patterns/footer.php:91
+msgid "Mac"
+msgstr "Mac"
+
+#: patterns/footer.php:90
+msgid "Android"
+msgstr "Android"
+
+#: patterns/footer.php:89
+msgid "IOS"
+msgstr "IOS"
+
+#: patterns/footer.php:79
+msgid "Report a bug"
+msgstr "Relatar um erro"
+
+#: patterns/footer.php:78
+msgid "Server Status"
+msgstr "Status do servidor"
+
+#: patterns/footer.php:77
+msgid "Help Center"
+msgstr "Central de ajuda"
+
+#: patterns/footer.php:76
+msgid "Getting Started"
+msgstr "Primeiros passos"
+
+#: patterns/footer.php:60
+msgid "Culture"
+msgstr "Cultura"
+
+#: patterns/footer.php:59
+msgid "Careers"
+msgstr "Carreiras"
+
+#: patterns/footer.php:58
+msgid "Contact Us"
+msgstr "Fale conosco"
+
+#: patterns/footer.php:57 patterns/header.php:56
+msgid "About"
+msgstr "Sobre"
+
+#: patterns/footer.php:46
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: patterns/footer.php:45
+msgid "Case Studies"
+msgstr "Estudos de caso"
+
+#: patterns/footer.php:44 patterns/header.php:58
+msgid "Pricing"
+msgstr "Preços"
+
+#: patterns/footer.php:43
+msgid "Features"
+msgstr "Recursos"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Rodapé"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge, 64px"
+msgstr "Enorme, 64px"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large Plus,48px"
+msgstr "Grande maior, 48px"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium Plus,24px"
+msgstr "Médio maior, 24px"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium Large"
+msgstr "Médio grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Médio"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Pequeno"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Fonte do sistema"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr "Extra pequeno"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Small"
+msgstr "Extra extra pequeno"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr "Pequeno"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (without title)"
+msgstr "Página (sem título)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page With Sidebar"
+msgstr "Página com barra lateral"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post with Right Sidebar"
+msgstr "Post com barra lateral direita"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "Em branco"
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr "Laranja"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr "Cor da borda"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Dark Background"
+msgstr "Fundo escuro"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Text Alt"
+msgstr "Texto alternativo"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Light Background"
+msgstr "Fundo claro"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr "Título"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Link"
+msgstr "Link"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr "Texto"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Plano de fundo"
+
+#: styles/dark.json styles/orange.json
+msgctxt "Color name"
+msgid "Button-text"
+msgstr "Texto do botão"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Button Background"
+msgstr "Fundo do botão"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Terciária"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Background Alt"
+msgstr "Fundo alternativo"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "White BG"
+msgstr "Fundo branco"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Text White"
+msgstr "Texto em branco"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Secondary BG"
+msgstr "Fundo secundária"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundária"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Primary Trans"
+msgstr "Primária transparente"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primária"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Icon Gradient4"
+msgstr "Ícone gradiente4"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Icon Gradient3"
+msgstr "Ícone gradiente3"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Icon Gradient2"
+msgstr "Ícone gradiente2"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Icon Gradient1"
+msgstr "Ícone gradiente1"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Secondary Gradient"
+msgstr "Gradiente secundário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Primary Gradient"
+msgstr "Gradiente primário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Primary Transparent"
+msgstr "Transparente primário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Vibrant"
+msgstr "Vibrante"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Secondary"
+msgstr "Secundário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Gradient name"
+msgid "Primary"
+msgstr "Primário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "Midnight Blue"
+msgstr "Azul escuro"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "Dark Grayscale"
+msgstr "Escala de cinza escuro"
+
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Green"
+msgstr "Verde"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "White"
+msgstr "Branco"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "Tertiary"
+msgstr "Terciário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "Secondary"
+msgstr "Secundário"
+
+#: styles/dark.json styles/orange.json theme.json
+msgctxt "Duotone name"
+msgid "Primary"
+msgstr "Primário"
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr "Escuro"
+
+#: patterns/testimonials.php:83
+msgctxt "Message to convey testimonial content"
+msgid "Endless customization"
+msgstr "Personalização ilimitada"
+
+#: patterns/testimonials.php:73
+msgctxt "Message to convey testimonial content"
+msgid "Freelancer"
+msgstr "Profissional autônomo"
+
+#: patterns/testimonials.php:69
+msgctxt "Message to convey testimonial content"
+msgid "Jacob Jones"
+msgstr "Jacob Jones"
+
+#: patterns/testimonials.php:55 patterns/testimonials.php:91
+msgctxt "Message to convey testimonial content"
+msgid "A Brilliant Journey. Choosing BizOCapital was one of the best decisions we made for our startup. Their financial expertise and tailored approach helped us secure vital funding and navigate. financial challenges. Their team is not only knowledgeable but also responsive and attentive to our needs."
+msgstr "Uma jornada brilhante. Escolher a BizOCapital foi uma das melhores decisões que tomamos para a nossa nova empresa (startup). Sua experiência financeira e sua abordagem personalizada nos ajudaram a garantir um financiamento vital e a superar desafios financeiros. A equipe deles não só tem conhecimento, mas também é ágil e atenta às nossas necessidades."
+
+#: patterns/testimonials.php:47
+msgctxt "Message to convey testimonial content"
+msgid "Highly recommended!"
+msgstr "Altamente recomendado!"
+
+#: patterns/testimonials.php:37
+msgctxt "Message to convey testimonial content"
+msgid "Web designer"
+msgstr "Web designer"
+
+#: patterns/testimonials.php:33
+msgctxt "Message to convey testimonial content"
+msgid "John Smith"
+msgstr "John Smith"
+
+#: patterns/testimonials.php:15
+msgctxt "Message to convey testimonial content"
+msgid "what people have to say about us"
+msgstr "o que as pessoas têm a dizer sobre nós"
+
+#: patterns/testimonials.php:11
+msgctxt "Message to convey testimonial content"
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: patterns/testimonials.php
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: patterns/team.php:49 patterns/team.php:77 patterns/team.php:109
+#: patterns/team.php:137 patterns/team.php:171 patterns/team.php:199
+#: patterns/team.php:231 patterns/team.php:259
+msgctxt "Message to convey team content"
+msgid "Creative Director"
+msgstr "Diretor criativo"
+
+#: patterns/team.php:45 patterns/team.php:73 patterns/team.php:105
+#: patterns/team.php:133 patterns/team.php:167 patterns/team.php:195
+#: patterns/team.php:227 patterns/team.php:255
+msgctxt "Message to convey team content"
+msgid "Alex Carter"
+msgstr "Alex Carter"
+
+#: patterns/team.php:16
+msgctxt "Message to convey team content"
+msgid "Awesome team member"
+msgstr "Membro da equipe incrível"
+
+#: patterns/team.php:12
+msgctxt "Message to convey team content"
+msgid "Team"
+msgstr "Equipe"
+
+#: patterns/team.php
+msgctxt "Pattern title"
+msgid "Team"
+msgstr "Equipe"
+
+#: patterns/services.php:126
+msgctxt "Message to convey service content"
+msgid "Business Strategy"
+msgstr "Estratégia de negócios"
+
+#: patterns/services.php:108
+msgctxt "Message to convey service content"
+msgid "UI Designs"
+msgstr "Designs de interface do usuário"
+
+#: patterns/services.php:90
+msgctxt "Message to convey service content"
+msgid "Social Media Marketin"
+msgstr "Marketing de mídia social"
+
+#: patterns/services.php:70
+msgctxt "Message to convey service content"
+msgid "Digital Marketing"
+msgstr "Marketing digital"
+
+#: patterns/services.php:52
+msgctxt "Message to convey service content"
+msgid "SEO Optimized"
+msgstr "Otimizado para SEO"
+
+#: patterns/services.php:38 patterns/services.php:56 patterns/services.php:74
+#: patterns/services.php:94 patterns/services.php:112 patterns/services.php:130
+msgctxt "Message to convey service content"
+msgid "Provide the best, most intuitive support across all channels from. Proactively."
+msgstr "Forneça o melhor e mais intuitivo suporte em todos os canais. De forma proativa."
+
+#: patterns/services.php:34
+msgctxt "Message to convey service content"
+msgid "UX Designs"
+msgstr "Designs de experiência do usuário"
+
+#: patterns/services.php:15
+msgctxt "Message to convey service content"
+msgid "Services We Offer"
+msgstr "Serviços que oferecemos"
+
+#: patterns/services.php:11
+msgctxt "Message to convey service content"
+msgid "services"
+msgstr "serviços"
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Service Section"
+msgstr "Seção de serviços"
+
+#: patterns/search-page.php:41
+msgctxt "Message to convey search page content"
+msgid "No posts were found."
+msgstr "Nenhum post foi encontrado."
+
+#: patterns/search-page.php:25
+msgctxt "Message to convey search page content"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: patterns/archieve-page-header.php:16 patterns/search-page.php:17
+msgctxt "Message to convey search page content"
+msgid "Home"
+msgstr "Página inicial"
+
+#: patterns/search-page.php
+msgctxt "Pattern title"
+msgid "Search Page"
+msgstr "Página de pesquisa"
+
+#: patterns/related-posts.php:12
+msgctxt "Message to convey related post content"
+msgid "You May Also Like"
+msgstr "Você também pode gostar"
+
+#: patterns/related-posts.php
+msgctxt "Pattern title"
+msgid "Related Posts"
+msgstr "Posts relacionados"
+
+#: patterns/projects.php:38 patterns/projects.php:64 patterns/projects.php:90
+msgctxt "Message to convey portfolio content"
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: patterns/projects.php:32 patterns/projects.php:58 patterns/projects.php:84
+msgctxt "Message to convey portfolio content"
+msgid "Digital Revamp Pro"
+msgstr "Digital Revamp Pro"
+
+#: patterns/projects.php:15
+msgctxt "Message to convey portfolio content"
+msgid "Recent Projects"
+msgstr "Projetos recentes"
+
+#: patterns/projects.php:11 patterns/projects.php:58
+msgctxt "Message to convey portfolio content"
+msgid "projects"
+msgstr "projetos"
+
+#: patterns/projects.php
+msgctxt "Pattern title"
+msgid "Projects"
+msgstr "Projetos"
+
+#: patterns/pricing.php:175
+msgctxt "Message to convey pricing content"
+msgid "$200"
+msgstr "$200"
+
+#: patterns/pricing.php:170
+msgctxt "Message to convey pricing content"
+msgid "Enterprise"
+msgstr "Empresa"
+
+#: patterns/pricing.php:122
+msgctxt "Message to convey pricing content"
+msgid "Unlock advanced tools for greater results & elevate experience"
+msgstr "Desbloqueie ferramentas avançadas para alcançar melhores resultados e aumentar a experiência"
+
+#: patterns/pricing.php:114
+msgctxt "Message to convey pricing content"
+msgid "Popular"
+msgstr "Popular"
+
+#: patterns/pricing.php:100
+msgctxt "Message to convey pricing content"
+msgid "$149"
+msgstr "$149"
+
+#: patterns/pricing.php:95
+msgctxt "Message to convey pricing content"
+msgid "Premium"
+msgstr "Premium"
+
+#: patterns/pricing.php:73 patterns/pricing.php:151 patterns/pricing.php:213
+msgctxt "Message to convey pricing content"
+msgid "Priority Updates"
+msgstr "Atualizações prioritárias"
+
+#: patterns/pricing.php:69 patterns/pricing.php:147 patterns/pricing.php:209
+msgctxt "Message to convey pricing content"
+msgid "24/7 Live Chat Support"
+msgstr "Suporte via conversa ao vivo 24 horas por dia, 7 dias por semana"
+
+#: patterns/pricing.php:65 patterns/pricing.php:143 patterns/pricing.php:205
+msgctxt "Message to convey pricing content"
+msgid "Blog Integration"
+msgstr "Integração do blog"
+
+#: patterns/pricing.php:61 patterns/pricing.php:139 patterns/pricing.php:201
+msgctxt "Message to convey pricing content"
+msgid "SEO Optimization"
+msgstr "Otimização de SEO"
+
+#: patterns/pricing.php:57 patterns/pricing.php:135 patterns/pricing.php:197
+msgctxt "Message to convey pricing content"
+msgid "Responsive Design"
+msgstr "Design responsivo"
+
+#: patterns/pricing.php:53 patterns/pricing.php:131 patterns/pricing.php:193
+msgctxt "Message to convey pricing content"
+msgid "Customization Options"
+msgstr "Opções de personalização"
+
+#: patterns/pricing.php:44 patterns/pricing.php:184
+msgctxt "Message to convey pricing content"
+msgid "Get started with basic features and kickstart your journey"
+msgstr "Comece com recursos básicos e dê o pontapé inicial na sua jornada"
+
+#: patterns/pricing.php:39 patterns/pricing.php:104 patterns/pricing.php:179
+msgctxt "Message to convey pricing content"
+msgid "/month"
+msgstr "/mês"
+
+#: patterns/pricing.php:35
+msgctxt "Message to convey pricing content"
+msgid "$49"
+msgstr "$49"
+
+#: patterns/pricing.php:30
+msgctxt "Message to convey pricing content"
+msgid "Standard"
+msgstr "Padrão"
+
+#: patterns/pricing.php:15
+msgctxt "Message to convey pricing content"
+msgid "Flexible Pricing Plan"
+msgstr "Plano com preços flexíveis"
+
+#: patterns/pricing.php:11
+msgctxt "Message to convey pricing content"
+msgid "pricing"
+msgstr "preço"
+
+#: patterns/pricing.php
+msgctxt "Pattern title"
+msgid "Pricing"
+msgstr "Preços"
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts, 1 columns"
+msgstr "Lista de posts, 1 coluna"
+
+#: patterns/post-with-sidebar.php
+msgctxt "Pattern title"
+msgid "Post With Right Sidebar"
+msgstr "Post com barra lateral direita"
+
+#: patterns/post-page-header.php:11 patterns/post-page-header.php:24
+msgctxt "Message to convey header content"
+msgid "Blog Details"
+msgstr "Detalhes do blog"
+
+#: patterns/post-page-header.php
+msgctxt "Pattern title"
+msgid "Post Page Header"
+msgstr "Cabeçalho da página do post"
+
+#: patterns/main-sidebar.php:51
+msgctxt "Message to convey sidebar"
+msgid "Social Link"
+msgstr "Link social"
+
+#: patterns/main-sidebar.php:39
+msgctxt "Message to convey sidebar"
+msgid "tags"
+msgstr "tags"
+
+#: patterns/main-sidebar.php:27
+msgctxt "Message to convey sidebar"
+msgid "Recent Posts"
+msgstr "Posts recentes"
+
+#: patterns/main-sidebar.php:14
+msgctxt "Message to convey sidebar"
+msgid "Categories"
+msgstr "Categorias"
+
+#: patterns/main-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: patterns/home.php
+msgctxt "Pattern title"
+msgid "Home"
+msgstr "Página inicial"
+
+#: patterns/header.php:31
+msgctxt "Message to convey header"
+msgid "Sign up"
+msgstr "Cadastrar"
+
+#: patterns/header.php:18
+msgctxt "Message to convey header"
+msgid "email@example.com"
+msgstr "email@exemplo.com.br"
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: patterns/funfacts.php:90
+msgctxt "Message to convey funfacts"
+msgid "Team Members"
+msgstr "Membros da equipe"
+
+#: patterns/funfacts.php:86
+msgctxt "Message to convey funfacts"
+msgid "100+"
+msgstr "Mais de 100"
+
+#: patterns/funfacts.php:70
+msgctxt "Message to convey funfacts"
+msgid "Company Growth"
+msgstr "Crescimento da empresa"
+
+#: patterns/funfacts.php:66
+msgctxt "Message to convey funfacts"
+msgid "100%"
+msgstr "100%"
+
+#: patterns/funfacts.php:46
+msgctxt "Message to convey funfacts"
+msgid "Active Users"
+msgstr "Usuários ativos"
+
+#: patterns/funfacts.php:42
+msgctxt "Message to convey funfacts"
+msgid "10M"
+msgstr "10 milhões"
+
+#: patterns/funfacts.php:26
+msgctxt "Message to convey funfacts"
+msgid "Happy Customers"
+msgstr "Clientes satisfeitos"
+
+#: patterns/funfacts.php:22
+msgctxt "Message to convey funfacts"
+msgid "99%"
+msgstr "99%"
+
+#: patterns/funfacts.php
+msgctxt "Pattern title"
+msgid "Funfact"
+msgstr "Fato curioso"
+
+#: patterns/footer.php:101
+msgctxt "Message to convey footer content"
+msgid "© Copyright by WPDeveloper"
+msgstr "© Direitos autorais de WPDeveloper"
+
+#: patterns/footer.php:85
+msgctxt "Message to convey footer content"
+msgid "Downloads"
+msgstr "Baixados"
+
+#: patterns/footer.php:72
+msgctxt "Message to convey footer content"
+msgid "Support"
+msgstr "Suporte"
+
+#: patterns/footer.php:53
+msgctxt "Message to convey footer content"
+msgid "Company"
+msgstr "Empresa"
+
+#: patterns/footer.php:39
+msgctxt "Message to convey footer content"
+msgid "Product"
+msgstr "Produto"
+
+#: patterns/footer.php:18
+msgctxt "Message to convey footer content"
+msgid "Empower your Brand & Captivate your Audience With MultiGency right away and Boost your Business."
+msgstr "Fortaleça sua marca e cative seu público com o MultiGency imediatamente e amplie seus negócios."
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Rodapé"
+
+#: patterns/faq.php:69
+msgctxt "Message to convey FAQ"
+msgid "Pixel perfect responsiveness with modern Flexbox and Bootstrap 4 grid to make it perfect responsiveness for all devices."
+msgstr "Responsividade perfeita para pixels com o moderno Flexbox e a grade do Bootstrap 4 para torná-lo responsivo em todos os dispositivos."
+
+#: patterns/faq.php:65
+msgctxt "Message to convey FAQ"
+msgid "Responsive & Dynamic"
+msgstr "Responsivo e dinâmico"
+
+#: patterns/faq.php:55
+msgctxt "Message to convey FAQ"
+msgid "If you don't renew, you won't get the premium support and automatic updates. But you can always get the latest version from your account, download them and update manually."
+msgstr "Se você não renovar, não irá receber o suporte Premium e as atualizações automáticas. Mas você sempre poderá receber a versão mais recente na sua conta, baixá-la e atualizá-la manualmente."
+
+#: patterns/faq.php:51
+msgctxt "Message to convey FAQ"
+msgid "What if I don't renew my annual license?"
+msgstr "E se eu não renovar minha licença anual?"
+
+#: patterns/faq.php:41
+msgctxt "Message to convey FAQ"
+msgid "For annual license, you will receive premium support and automatic updates for 1 year. You will need to renew your license to avail them. For lifetime license, you get everything for lifetime!"
+msgstr "Para a licença anual, você vai receber suporte Premium e atualizações automáticas por 1 ano. Você precisa renovar sua licença para aproveitá-los. Na licença Vitalícia, você terá tudo para sempre!"
+
+#: patterns/faq.php:37
+msgctxt "Message to convey FAQ"
+msgid "What is the difference between \"Annual\" and \"Lifetime\"?"
+msgstr "Qual é a diferença entre \"Anual\" e \"Vitalício\"?"
+
+#: patterns/faq.php:27
+msgctxt "Message to convey FAQ"
+msgid "You will get automatic update for Flexia from wp.org. If Flexia Pro is validated, you will get the automatic update in the same way, right from your WordPress Dashboard."
+msgstr "Você recebe a atualização automática do Flexia pelo wp.org. Se o \"Flexia Pro\" estiver validado, você terá a atualização automática da mesma forma, diretamente no seu painel do WordPress."
+
+#: patterns/faq.php:23
+msgctxt "Message to convey FAQ"
+msgid "How do I get updates?"
+msgstr "Como faço para receber atualizações?"
+
+#: patterns/faq.php:10
+msgctxt "Message to convey FAQ"
+msgid "Frequently Asked Questions"
+msgstr "Perguntas frequentes (FAQ)"
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "FAQ"
+msgstr "Perguntas frequentes (FAQ)"
+
+#: patterns/error.php:32
+msgctxt "Message to error page"
+msgid "Go Home"
+msgstr "Acessar a página inicial"
+
+#: patterns/error.php:22
+msgctxt "Message to error page"
+msgid "We're sorry, the page you requested could not be found '<br>' please go back to the homepage"
+msgstr "Infelizmente não foi possível encontrar a página solicitada '<br>', volte para a página inicial"
+
+#: patterns/error.php:18
+msgctxt "Message to error page"
+msgid "Page Not Found"
+msgstr "Página não encontrada"
+
+#: patterns/error.php
+msgctxt "Pattern title"
+msgid "Error"
+msgstr "Erro"
+
+#: patterns/cta.php:20
+msgctxt "Message to convey CTA"
+msgid "Get started"
+msgstr "Começar"
+
+#: patterns/cta.php:14
+msgctxt "Message to convey CTA"
+msgid "We Help to Build the Business"
+msgstr "Ajudamos a construir o negócio"
+
+#: patterns/cta.php
+msgctxt "Pattern title"
+msgid "CTA"
+msgstr "Chamada para ação (CTA)"
+
+#: patterns/common-page-header.php
+msgctxt "Pattern title"
+msgid "Common Page Header"
+msgstr "Cabeçalho da página comum"
+
+#: patterns/clients.php
+msgctxt "Pattern title"
+msgid "Clients Logos"
+msgstr "Logos de clientes"
+
+#: patterns/blog.php:16
+msgctxt "Message to convey blog content"
+msgid "latest News"
+msgstr "últimas notícias"
+
+#: patterns/blog.php:12
+msgctxt "Message to convey blog content"
+msgid "BLog"
+msgstr "Blog"
+
+#: patterns/blog.php
+msgctxt "Pattern title"
+msgid "Grid of posts, 3 columns"
+msgstr "Grade de posts, 3 colunas"
+
+#: patterns/post-with-sidebar.php:18
+msgctxt "Message to convey header content"
+msgid "Home"
+msgstr "Página inicial"
+
+#: patterns/blog-page-header.php:13 patterns/blog-page-header.php:26
+#: patterns/post-with-sidebar.php:13 patterns/post-with-sidebar.php:26
+msgctxt "Message to convey header content"
+msgid "Blog"
+msgstr "Blog"
+
+#: patterns/blog-page-header.php
+msgctxt "Pattern title"
+msgid "Blog Page Header"
+msgstr "Cabeçalho da página do blog"
+
+#: patterns/banner.php:32
+msgctxt "Message to convey that banner"
+msgid "Book A Call"
+msgstr "Agendar uma ligação"
+
+#: patterns/banner.php:20
+msgctxt "Message to convey banner"
+msgid "Get started"
+msgstr "Começar"
+
+#: patterns/banner.php:14
+msgctxt "Message to convey banner"
+msgid "Creative solutions to improve your business"
+msgstr "Soluções criativas para melhorar seus negócios"
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr "Banner"
+
+#: patterns/blog-page-header.php:18 patterns/common-page-header.php:17
+#: patterns/post-page-header.php:16
+msgctxt "Message to convey page header content"
+msgid "Home"
+msgstr "Página inicial"
+
+#: patterns/archieve-page-header.php
+msgctxt "Pattern title"
+msgid "Archieve Page Header"
+msgstr "Cabeçalho da página de arquivo"
+
+#: patterns/about.php:56
+msgctxt "Message to convey that about page"
+msgid "Read more"
+msgstr "Leia mais"
+
+#: patterns/about.php:52
+msgctxt "Message to convey that about page"
+msgid "It seems like you're looking for a suggestion for the \"About Us\" page title for an agency. The \"About Us\" page is typically where organizations provide information about their mission. onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Parece que você está procurando uma sugestão para o título da página \"Sobre nós\" de uma agência. A página \"Sobre nós\" é normalmente onde as empresas fornecem informações sobre sua missão. onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: patterns/about.php:48
+msgctxt "Message to convey that about page"
+msgid "Where Vision Meets Business - Your Dreams, Our Expertise."
+msgstr "Onde a visão encontra o negócio - seus sonhos, nossa experiência."
+
+#: patterns/about.php:24
+msgctxt "Message to convey that about page content"
+msgid "It seems like you're looking for a suggestion for the About Us page title for an agency. The About Us page is typically where organizations provide information about their mission, values, history, team,."
+msgstr "Parece que você está procurando uma sugestão para o título da página \"Sobre nós\" de uma agência. A página \"Sobre nós\" normalmente é onde as empresas fornecem informações sobre sua missão, valores, história, equipe, etc."
+
+#: patterns/about.php:20
+msgctxt "Message to convey that about page content"
+msgid "Transforming Dreams into Business Brilliance"
+msgstr "Transformando sonhos em excelência nos negócios"
+
+#: patterns/about.php:16
+msgctxt "Message to convey that about page"
+msgid "About us"
+msgstr "Sobre nós"
+
+#: patterns/about.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr "Sobre"
+
+#: functions.php:235
+msgid "Rounded Icon"
+msgstr "Ícone arredondado"
+
+#: functions.php:221
+msgid "Wide Thin Line"
+msgstr "Linha fina e larga"
+
+#: functions.php:212
+msgid "Image Rounded"
+msgstr "Imagem arredondada"
+
+#: functions.php:191
+msgid "Checkmark"
+msgstr "Marca de seleção"
+
+#: functions.php:168
+msgid "Primary"
+msgstr "Primário"
+
+#: functions.php:145
+msgid "Inverse"
+msgstr "Inverso"
+
+#: functions.php:121
+msgid "Minimal"
+msgstr "Minimalista"
+
+#: functions.php:111
+msgid "Image Hover"
+msgstr "Imagem ao passar o mouse"
+
+#: functions.php:102
+msgid "Small BG Shadow"
+msgstr "Sombra do fundo (BG) pequena"
+
+#: functions.php:92
+msgid "Hover Shadow"
+msgstr "Sombra ao passar o mouse"
+
+#: functions.php:82
+msgid "Hover Border"
+msgstr "Borda ao passar o mouse"
+
+#: functions.php:63
+msgid "Flexia Pages"
+msgstr "Páginas do Flexia"
+
+#: functions.php:56
+msgid "Flexia Patterns"
+msgstr "Padrões do Flexia"
+
+#: patterns/footer.php:61 patterns/header.php:59
+msgid "Blog"
+msgstr "Blog"
+
+#: patterns/footer.php:47
+msgid "Updates"
+msgstr "Atualizações"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wpdeveloper.net"
+msgstr "https://wpdeveloper.net"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "WPDeveloper"
+msgstr "WPDeveloper"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://flexia.pro"
+msgstr "https://flexia.pro"

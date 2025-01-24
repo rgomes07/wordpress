@@ -1,0 +1,68 @@
+services:
+  db:
+    image: mysql:5.7 
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DB}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT}
+    volumes:
+      - ./sql_data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    networks:
+      - backend
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: "1GB"
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - 8080:80
+    networks:
+      - backend
+      - proxy-net
+    deploy:
+      replicas: 3
+      placement:
+        constraints: [node.role == worker]
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: "1GB"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${MYSQL_DB}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - ./wp_data:/var/www/html
+
+networks:
+  backend:
+  proxy-net:
+    driver: overlay
+
+volumes:
+  wp_data:
+  sql_data:
+  #  driver: local
+  #  driver_opts:
+  #    type: "nfs4"
+  #    o: "addr=192.168.100.9,rw"
+  #    device: ":/var/storage/wordpress/wp_data"   
+  
+  #mysql_wpdata:
+  #  driver: local
+  #  driver_opts:
+  #    type: "nfs4"
+  #    o: "addr=192.168.100.9,rw"
+  #    device: ":/var/storage/wordpress/mysql_wpdata"
