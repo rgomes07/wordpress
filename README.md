@@ -71,3 +71,5 @@ WordPress.com:
 Um serviço de hospedagem gerenciado.
 Mais limitado em personalizações, a menos que você pague pelos planos premium.
 Ideal para iniciantes ou quem não quer se preocupar com hospedagem.
+
+Obs: As variáveis estão declaradas em um arquivo .env, verifique o script onde as variáveis são expotadas para o ambiente antes de executar a stack.
