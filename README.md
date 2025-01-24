@@ -64,6 +64,8 @@ WordPress.org:
 Você baixa e hospeda o WordPress no seu servidor.
 Total controle sobre personalização, temas e plugins.
 É gratuito, mas você paga pela hospedagem.
+
+Obs: As variáveis estão em um arquivo .env declarado no .gitignore.
 WordPress.com:
 
 Um serviço de hospedagem gerenciado.
