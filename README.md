@@ -1,4 +1,4 @@
-# mywordpress
+# mywordpress - Apache
 
 O WordPress é um sistema de gerenciamento de conteúdo (CMS - Content Management System) amplamente usado para criar, gerenciar e publicar sites, blogs e outros tipos de conteúdos na web, sem a necessidade de conhecimentos avançados em programação. Ele é gratuito, de código aberto, flexível e conta com uma grande comunidade de suporte.
 
